@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+              box-sizing: border-box;
+              margin: 0px;
+              padding: 0px;
+        }
+
+        body{
+            background-color: rgb(194, 238, 255);
+        }
+        
+        .container{
+            background-color: #d3f4cd;
+            border: 4px solid darkblue;
+            /* padding: 10px; */
+            /* we can set margin / padding for top, buttom, left, right like this */
+            /* padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px; */
+            /* padding / margin = top right buttom left; */
+            /* padding = y(top/buttom) x(left/right); */
+            /* box-sizing: border-box; */
+            padding: 15px 10px;
+            margin: 15px 15px;
+            border-radius: 10px;
+            width: 436px;
+        }
+    </style>
+</head> 
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id = "first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores ea aut numquam dicta deleniti totam, beatae eveniet, corrupti reprehenderit sequi autem libero nemo excepturi aperiam fuga illum consequuntur tempore dignissimos!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id = "second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores ea aut numquam dicta deleniti totam, beatae eveniet, corrupti reprehenderit sequi autem libero nemo excepturi aperiam fuga illum consequuntur tempore dignissimos!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id = "third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores ea aut numquam dicta deleniti totam, beatae eveniet, corrupti reprehenderit sequi autem libero nemo excepturi aperiam fuga illum consequuntur tempore dignissimos!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id = "fourth">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores ea aut numquam dicta deleniti totam, beatae eveniet, corrupti reprehenderit sequi autem libero nemo excepturi aperiam fuga illum consequuntur tempore dignissimos!</p>
+    </div>
+</body>
+</html>
